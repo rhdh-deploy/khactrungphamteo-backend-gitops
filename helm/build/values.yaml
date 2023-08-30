@@ -1,0 +1,15 @@
+app:
+  name: khactrungphamteo-poi-backend-app
+  namespace: khactrungphamteo
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/khactrungphamteo-backend
+  org: rhdh-deploy
+  name: khactrungphamteo-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: khactrungphamteo/poi-backend-app
+  tag: latest
